@@ -3,7 +3,9 @@ import authReducer from "../features/authSlice"
 import stockReducer from "../features/stockSlice"
 
 import { persistStore, persistReducer } from "redux-persist"
-import storage from "redux-persist/lib/storage/session" //? default : localStorage
+// import storage from "redux-persist/lib/storage/session"; //?sessionStorage
+import storage from "redux-persist/lib/storage/"; //?bu sekilde default:localStorage
+
 
 const persistConfig = {
   key: "root",
