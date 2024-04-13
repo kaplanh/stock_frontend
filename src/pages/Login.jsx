@@ -115,6 +115,13 @@ const Login = () => {
           <Box sx={{ textAlign: "center", mt: 2 }}>
             <Link to="/register">Don't you have an account?</Link>
           </Box>
+          <Box sx={{ textAlign: "center", mt: 4, fontWeight: 'bold' }}>
+            Wants to Login as a admin ? You can use the credintials below.
+          </Box>
+          <Box sx={{ justifyContent: "center", mt: 1, display: 'flex', gap: 3 }}>
+            <span>email : admin@site.com</span>
+            <span>password : aA?123456</span>
+          </Box>
         </Grid>
 
         <Grid item xs={10} sm={7} md={6}>
